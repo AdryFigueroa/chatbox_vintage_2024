@@ -5,8 +5,10 @@ html {
   font-family: "Calibri", "Gill Sans", "Gill Sans MT", "Trebuchet MS",
     sans-serif;
     max-width: 1824px;
+    min-width: 320px;
 }
-.container {max-width: 1824px;}
+.container {max-width: 1824px;
+min-width: 320px;}
 
 .list-unstyled {
   padding-left: 0;
