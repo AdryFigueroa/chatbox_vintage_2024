@@ -45,7 +45,6 @@ html {
 }
 
 .nav-link {
-  
   color: #ff8502;
   font-size: small;
 }
@@ -64,14 +63,23 @@ html {
   background-color: rgb(248 226 228);
   border: var(--bs-border-width) solid #ffffff;
 }
-#navbarNav {overflow:visible;
-width: 100%;
-height: fit-content;}
-.navbarNAV {margin: 100%;}
 
-.dropdown-menu {font-size: small;
-border: 0;
-background-color:deepskyblue;}
+#navbarNav {
+  overflow: visible;
+  width: 100%;
+  height: fit-content;
+}
+
+.navbarNAV {
+  margin: 100%;
+}
+
+.dropdown-menu {
+  font-size: small;
+  border: 0;
+  background-color: deepskyblue;
+}
+
 /* Imagen de perfil */
 
 .profile-pic {
@@ -133,15 +141,42 @@ background-color:deepskyblue;}
   height: 10px;
   width: 10px;
   margin-left: 2.9rem;
-  margin-top: -.75rem;
+  margin-top: -0.75rem;
 }
 
-/*Nombres*/
+/*Nombres de contacto*/
 a {
   color: #ff8502;
   text-decoration: none;
 }
-.noleido {color: #000;}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.noleido {
+  color: #000;
+}
+
+.noleido:hover {
+  color: #00a2ff;
+}
+
+.noleido:active {
+  color: #ff5100;
+}
 
 /*DERECHA: Conversación actual*/
 
@@ -262,27 +297,32 @@ a {
 /*Tamaño*/
 @media (min-width: 768px) {
   .navbar-nav {
-      margin-left: auto;
-      margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
+
 /*Lista de medias queries mas comunes 2024*/
 
 /* X-Small devices (portrait phones, less than 576px)*/
 /* No media query for `xs` since this is the default in Bootstrap*/
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {  }
+@media (min-width: 576px) {
+}
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {  }
+@media (min-width: 768px) {
+}
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {  }
+@media (min-width: 992px) {
+}
 
 /* X-Large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) {
+}
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
-@media (min-width: 1400px) {  }
-
+@media (min-width: 1400px) {
+}
