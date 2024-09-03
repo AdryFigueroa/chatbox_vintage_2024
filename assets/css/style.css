@@ -4,10 +4,13 @@ html {
   background-color: rgb(248 226 228);
   font-family: "Calibri", "Gill Sans", "Gill Sans MT", "Trebuchet MS",
     sans-serif;
-    
+  max-width: 1824px;
+  min-width: 320px;
 }
-.container {max-width: 1824px;
-min-width: 320px;}
+.container {
+  max-width: 1824px;
+  min-width: 320px;
+}
 
 .list-unstyled {
   padding-left: 0;
@@ -19,7 +22,6 @@ min-width: 320px;}
 
 .navbar {
   color: #ff8502;
-  
 }
 
 .navbar:hover {
@@ -301,14 +303,10 @@ a:active {
 /*Tamaño*/
 @media (max-width: 767px) {
   body {
-      padding-left: 0;
-      padding-right: 0;
-  
+    padding-left: 0;
+    padding-right: 0;
   }
-  footer {padding: 3rem;}
-
 }
-
 
 /*Lista de medias queries mas comunes 2024*/
 
